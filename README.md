@@ -1,5 +1,6 @@
 <!-- TODOs: -->
 Implement home country optional argument
+Implement skipping zero days
 Format according to model csv
 Add option to specify dates
 Add more granularity for location, city + country
@@ -10,9 +11,11 @@ travel_history.py processes your Google location history to turn it into a well 
 
 # How to use
 1. git clone https://github.com/ministrudels/my-travel-history.git
-2. Download your Google location data in json format following the instructions at this link: https://support.google.com/accounts/answer/3024190?hl=en and select Location History.
-3. Move the file to the repo working directory
-4. ```python travel_history.py``` <Google location filename> to begin parsing it to a travel_history.csv. You probably want to specify an argument for --home in order to take away your home country. ```python travel_history.py --help``` for more options.
+2. pip install -r requirements.txt
+3. Download your Google location data in json format following the instructions at this link: https://support.google.com/accounts/answer/3024190?hl=en and select Location History.
+4. Move the file to the repo working directory
+5. ```python travel_history.py <Google location filename>``` to begin parsing it to a travel_history.csv. You probably want to specify an argument for --home in order to take away your home country. ```python travel_history.py --help``` for more options.
+
 
 ## Country Codes
 | Country                                      | Code |
