@@ -1,11 +1,3 @@
-<!-- TODOs: -->
-Implement home country optional argument
-Implement skipping zero days
-Format according to model csv
-Add option to specify dates
-Add more granularity for location, city + country
-Write README
-
 # Generate your travel history
 travel_history.py processes your Google location history to turn it into a well formated travel history document. Ouputs the date and time you were in a country, duration of stay. 
 
@@ -269,3 +261,11 @@ travel_history.py processes your Google location history to turn it into a well 
 | Yemen                                        | YE   |
 | Zambia                                       | ZM   |
 | Zimbabwe                                     | ZW   |
+
+# TODO
+Implement home country optional argument
+Implement skipping zero days
+Format according to model csv
+Add option to specify dates
+Add more granularity for location, city + country
+Write README
